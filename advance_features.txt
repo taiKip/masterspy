@@ -1,0 +1,20 @@
+# File: timetable.py
+# Author: Victor Tarus
+# Student ID: 1104794911
+# This is my own work as defined by
+# the University's Academic Misconduct Policy.
+
+
+
+Advanced Features Implemented:
+
+1.No global variables used; all data passed through functions.
+2.Manual file I/O using open() and close() with no external libraries.
+3.Events can be scheduled outside standard work hours (9am–5pm).
+4.Scheduling an event could support minute level granularity (10:10am, 2:45pm, etc.)
+5.In printing out the entire timetable, the user gets the option of the day of the week to begin with.
+6.Search by title or location (case-insensitive) of the events in the form of keyword.
+7.Not only start time, but also keyword search is used to update or delete events.
+8.The search results are listed in a chronological order, according to day and time.
+9.Emojis are added to the user interface making it friendly.
+10.Robust error handling for file operations and input validation.
