@@ -14,7 +14,7 @@ Advanced Features Implemented:
 4.Scheduling an event could support minute level granularity (10:10am, 2:45pm, etc.)
 5.In printing out the entire timetable, the user gets the option of the day of the week to begin with.
 6.Search by title or location (case-insensitive) of the events in the form of keyword.
-7.Not only start time, but also keyword search is used to update or delete events.
+7.keyword search is used to update or delete events.
 8.The search results are listed in a chronological order, according to day and time.
 9.Emojis are added to the user interface making it friendly.
 10.Robust error handling for file operations and input validation.

@@ -118,7 +118,7 @@ def display_menu():
 # Check if input is a digit between 1 and 7."
 def is_valid_number(user_input: str):
 
-    isValid = False
+    isValid: bool = False
     num = None
     if user_input.isdigit():
         num = int(user_input)
