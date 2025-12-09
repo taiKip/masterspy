@@ -1,3 +1,5 @@
+from fontTools.merge.util import first
+
 c = [-45,6,0,72,1543]
 
 for i in c:
@@ -44,30 +46,15 @@ for character in characters:
     print(character)
 
 
-student_tuple = ()
-print (len(student_tuple))
 
-student_tuple = 'John','Green',3.3
-print(student_tuple)
+student_tuple = ('Amanda',[98,85,87])
+first_name,grades = student_tuple
+print(first_name)
 
-another_student_tuple =('Mary','Red',3.3)
-print(another_student_tuple)
+# Displaying a bar chart
 
-a_singleton_tuple = ('red',)
-
-print(another_student_tuple[1])
-
-tuple2 = another_student_tuple
-tuple2+=(10,40)
-
-print(another_student_tuple)
-print(tuple2)
-
-print(another_student_tuple)
-
-single_el_tuple = 123.45,
-print(single_el_tuple[0])
-list_1 = [1,2,3]
-tuple_2 = (4,5,6)
-list_1+=tuple_2
-print(list_1)
+numbers = [19,3,15,7,11]
+print('\nCreating a bar chart from numbers: ')
+print(f'Index{"Value":>8}   Bar')
+for index, value  in enumerate(numbers):
+    print(f'{index:>5}{value:>8}   {"*" * value}')
